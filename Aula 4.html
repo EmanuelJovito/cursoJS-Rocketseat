@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Curso JavaScript</title>
+  </head>
+  <body>
+    <script>
+      /* function retornaSexo(sexo){
+        if (sexo==="M"){
+          return "Masculino"
+        }
+        else if (sexo==="F"){
+          return "Feminino"
+        }
+        else{
+          return "Outro"
+        }
+        }
+      var resultado= retornaSexo("M")
+      console.log(resultado) */
+      
+    function retornaSexo(sexo){
+      switch (sexo){
+        case "M", "m":
+          return "Masculino";
+        
+        case "F", "f":
+          return "Feminino";
+        
+        default:
+         return "Outro"
+        }
+      }
+    
+    var resultado= retornaSexo("f")
+    console.log(resultado)
+      
+    </script>
+  </body>
+</html>
