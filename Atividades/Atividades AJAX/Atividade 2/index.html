@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso JavaScript</title>
+    <style>
+      .show{
+        display: block;
+      }
+      .close{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="usuario" />
+      <button onclick="getUserData()">Pesquisar</button>
+      <ul id="repositories">
+      </ul>
+      <div id="carregando" class="close">Carregando...</div>
+      <div id="error" class="close"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
